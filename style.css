@@ -13,33 +13,43 @@ header, nav, section, aside, footer {
 
 header, footer, nav {
     margin: 15px;
-    padding: 2.5em; 
+    padding: 2.5em;
+    clear: both;
 }
 
 article {
     color: #ebebeb;
     background: #777;
-}
-
-.row {
-    display: grid;
-}
-
-.column {
-    display: inline;
+    padding: 15px;
 }
 
 h1, p {
     color: #777;
     background: #ebebeb;
+    margin: 10px;
+    padding: 15px;
 }
 
-section, aside {
+section{
+    float: left;
     width: 495px;
-    display: inline ;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin: 15px;
+    height: 200px;
+}
+
+aside {
+    float: left;
+    width: auto;
+    margin: 15px;
+    height: 200px;
 }
 
 .container {
     margin: 0 auto;
     text-align: center;
+    overflow: auto;
 }
