@@ -31,22 +31,26 @@ h1, p {
     padding: 15px;
 }
 
+.middle {
+    width: 960px;
+}
 section{
+    box-sizing: border-box;
     float: left;
-    width: 495px;
-    padding: 2em 10px 2em 10px;
+    width: 500px;
+    padding: 30px 10px;
     margin: 10px;
-    height: 200px;
+    height: 280px;
     margin-bottom: 20px;
 }
 
 aside {
-    overflow: hidden;
-    width: auto;
-    margin-right: 10px;
-    margin-top: 20px;
-    height: 200px;
-    padding: 2em;
+    box-sizing: border-box;
+    float: left;
+    width: 420px;
+    margin: 10px;
+    height: 280px;
+    padding: 30px 10px;
     margin-bottom: 20px;
 }
 
